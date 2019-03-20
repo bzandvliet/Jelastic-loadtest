@@ -6,7 +6,7 @@ if ($_GET['run']) {
 
 if ($_GET['run2']) {
   # This code will run if ?run2=true is set.
-  exec("/var/www/webroot/ROOT/loaddb.sh");
+  exec("/var/www/webroot/ROOT/dbload.sh");
 }
 ?>
 
